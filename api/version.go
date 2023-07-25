@@ -5,7 +5,7 @@ import (
 )
 
 type Version struct {
-	Version string `json: "version"`
+	Version string `json:"version"`
 }
 
 func GetVersion(c *fiber.Ctx) error {
