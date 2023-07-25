@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github/machineShop-api/api"
+	"github.com/machineShop-api/api"
 
 	"github.com/gofiber/fiber/v2"
 )
