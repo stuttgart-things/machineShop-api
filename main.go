@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/machineShop-api/api"
+	"github.com/stuttgart-things/machineShop-api/api"
 
 	"github.com/gofiber/fiber/v2"
 )
@@ -17,6 +17,6 @@ func setupRoutes(app *fiber.App) {
 		return c.SendString("Hello, World 👋!")
 	})
 
-	app.Get("/version", api.GetVersion())
+	app.Get("/version", api.GetVersion)
 
 }

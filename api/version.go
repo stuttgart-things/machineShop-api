@@ -1,5 +1,9 @@
 package api
 
+import (
+	"github.com/gofiber/fiber/v2"
+)
+
 type Version struct {
 	Version string `json: "version"`
 }
