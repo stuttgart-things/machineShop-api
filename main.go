@@ -20,5 +20,3 @@ func setupRoutes(app *fiber.App) {
 	app.Get("/version", api.GetVersion)
 	app.Post("/vm", api.CreateVM)
 }
-
-curl -X POST -H "Content-Type: application/json" --data "{\"name\": \"Angels and Demons\", \"name\": \"Angels and Demons\", \"os\": \"Dan Brown\"}" http://localhost:3000/vm
